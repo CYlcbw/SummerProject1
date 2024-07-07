@@ -1,0 +1,10 @@
+[{"name": "Camera 1", "category": "\u8f66\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd1.mp4"},
+{"name": "Camera 2", "category": "\u8f66\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd2.mp4"},
+{"name": "Camera 3", "category": "\u8f66\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd3.mp4"},
+{"name": "Camera 4", "category": "\u8f66\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd4.mp4"},
+{"name": "Camera 5", "category": "\u8f66\u6d41", "address": "0"},
+{"name": "Camera 6", "category": "\u4eba\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd1.mp4"},
+{"name": "Camera 7", "category": "\u4eba\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd2.mp4"},
+{"name": "Camera 8", "category": "\u4eba\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd3.mp4"},
+{"name": "Camera 9", "category": "\u4eba\u6d41", "address": "D:\\PycharmProject\\project2\\pythonProject1\\data\\vd4.mp4"},
+{"name": "Camera 10", "category": "\u4eba\u6d41", "address": "0"}]

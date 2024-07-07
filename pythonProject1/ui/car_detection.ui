@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CarDetectionPage</class>
+ <widget class="QWidget" name="CarDetectionPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>623</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>623</width>
+    <height>469</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Car Detection Page</string>
+  </property>
+  <layout class="QHBoxLayout" name="mainLayout">
+   <item>
+    <layout class="QVBoxLayout" name="leftLayout">
+     <item>
+      <layout class="QHBoxLayout" name="monitorsLayout1">
+       <item>
+        <widget class="QFrame" name="monitor1">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <layout class="QVBoxLayout" name="layout1">
+          <item>
+           <layout class="QHBoxLayout" name="topLayout1">
+            <item>
+             <widget class="QComboBox" name="monitorControl1">
+              <item>
+               <property name="text">
+                <string>关闭检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>检测违规</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="monitorDisplay1">
+            <property name="minimumSize">
+             <size>
+              <width>129</width>
+              <height>101</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: black; color: white;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="bottomLayout1">
+            <item>
+             <widget class="QComboBox" name="cameraCombo1"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="trafficLabel1">
+              <property name="text">
+               <string>车流量：0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="monitor2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <layout class="QVBoxLayout" name="layout2">
+          <item>
+           <layout class="QHBoxLayout" name="topLayout2">
+            <item>
+             <widget class="QComboBox" name="monitorControl2">
+              <item>
+               <property name="text">
+                <string>关闭检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>检测违规</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="monitorDisplay2">
+            <property name="minimumSize">
+             <size>
+              <width>129</width>
+              <height>101</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: black; color: white;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="bottomLayout2">
+            <item>
+             <widget class="QComboBox" name="cameraCombo2"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="trafficLabel2">
+              <property name="text">
+               <string>车流量：0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="monitorsLayout2">
+       <item>
+        <widget class="QFrame" name="monitor3">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QComboBox" name="monitorControl3">
+              <item>
+               <property name="text">
+                <string>关闭检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>检测违规</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="monitorDisplay3">
+            <property name="minimumSize">
+             <size>
+              <width>129</width>
+              <height>101</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: black; color: white;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <layout class="QHBoxLayout" name="bottomLayout3">
+            <item>
+             <widget class="QComboBox" name="cameraCombo3"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="trafficLabel3">
+              <property name="text">
+               <string>车流量：0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="monitor4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <layout class="QVBoxLayout" name="layout4">
+          <item>
+           <layout class="QHBoxLayout" name="topLayout4">
+            <item>
+             <widget class="QComboBox" name="monitorControl4">
+              <item>
+               <property name="text">
+                <string>关闭检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>检测违规</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="monitorDisplay4">
+            <property name="minimumSize">
+             <size>
+              <width>129</width>
+              <height>101</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: black; color: white;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="bottomLayout4">
+            <item>
+             <widget class="QComboBox" name="cameraCombo4"/>
+            </item>
+            <item>
+             <widget class="QLabel" name="trafficLabel4">
+              <property name="text">
+               <string>车流量：0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="rightLayout">
+     <item>
+      <layout class="QHBoxLayout" name="carPlateLayout">
+       <item>
+        <widget class="QLineEdit" name="carPlateInput">
+         <property name="placeholderText">
+          <string>输入车牌号</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="queryButton">
+         <property name="text">
+          <string>查询</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="totalInfoLabel">
+       <property name="text">
+        <string>汇总信息</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PeopleMonitorPage</class>
+ <widget class="QWidget" name="PeopleMonitorPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>People Monitor Page</string>
+  </property>
+  <layout class="QHBoxLayout" name="mainLayout">
+   <item>
+    <layout class="QVBoxLayout" name="leftLayout">
+     <item>
+      <widget class="QTableWidget" name="table">
+       <column>
+        <property name="text">
+         <string>名字</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>修改名字</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>删除监控</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>地址</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>增加监控</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
